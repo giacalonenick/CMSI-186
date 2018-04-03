@@ -71,7 +71,7 @@ public class Timer {
       System.out.println( "\nCLOCK CLASS TESTER PROGRAM\n" +
                           "--------------------------\n" );
       System.out.println( "  Creating a new clock: " );
-      Clock clock = new Clock();
+      Timer clock = new Timer();
       System.out.println( "Next Timer Tick: " + clock.tick(120));
       System.out.println( "Next Clock Tick: " + clock.tick(1000));
       System.out.println( "    New clock created: " + clock.toString() );

@@ -1,0 +1,284 @@
+.                                       
+.                                       
+======================================  
+... Testing Ball class ...              
+======================================  
+
+ Testing Ball Class...
+The radius of the ball is 0.37 feet
+The weight of the ball is 1
+The xPosition of the ball is 1.0
+The yPosition of the ball is 2.0
+
+ Setting new ball position...
+The new xPosition of the ball is 1.0
+The new yPosition of the ball is 2.0
+1.0, 2.0
+
+ Moving ball...
+The new xPosition of the ball is 15.702985029999999
+The new yPosition of the ball is 16.70298503
+The new xPosition of the ball is 21.380395627903
+The new yPosition of the ball is 22.380395627903
+The new xPosition of the ball is 21.380395627903
+The new yPosition of the ball is 22.380395627903
+The new xPosition of the ball is 24.176591671623967
+The new yPosition of the ball is 25.176591671623967
+The new xPosition of the ball is 35.084538485161204
+The new yPosition of the ball is 36.084538485161204
+The new xPosition of the ball is 40.376256169306494
+The new yPosition of the ball is 41.376256169306494
+The new xPosition of the ball is 42.98249360761343
+The new yPosition of the ball is 43.98249360761343
+The new xPosition of the ball is 42.98249360761343
+The new yPosition of the ball is 43.98249360761343
+The new xPosition of the ball is 42.98249360761343
+The new yPosition of the ball is 43.98249360761343
+The distance between the two balls 57.25525807627562
+Are the balls colliding? false
+.                                       
+.                                       
+.                                       
+.                                       
+======================================  
+... Testing Timer class ...                
+======================================  
+
+CLOCK CLASS TESTER PROGRAM
+--------------------------
+
+  Creating a new clock: 
+Next Timer Tick: 120.0
+Next Clock Tick: 1120.0
+    New clock created: 0.0:18.0:40.0
+Next Clock Tick: 2120.0
+    New clock created: 0.0:35.0:20.0
+Next Clock Tick: 3120.0
+    New clock created: 0.0:52.0:0.0
+Next Clock Tick: 4120.0
+    New clock created: 1.0:8.0:40.0
+Next Clock Tick: 5120.0
+    New clock created: 1.0:25.0:20.0
+Next Clock Tick: 6120.0
+    New clock created: 1.0:42.0:0.0
+Next Clock Tick: 7120.0
+    New clock created: 1.0:58.0:40.0
+Next Clock Tick: 8120.0
+    New clock created: 2.0:15.0:20.0
+Next Clock Tick: 9120.0
+    New clock created: 2.0:32.0:0.0
+Next Clock Tick: 10120.0
+    New clock created: 2.0:48.0:40.0
+Next Clock Tick: 11120.0
+    New clock created: 3.0:5.0:20.0
+Next Clock Tick: 12120.0
+    New clock created: 3.0:22.0:0.0
+Next Clock Tick: 13120.0
+    New clock created: 3.0:38.0:40.0
+Next Clock Tick: 14120.0
+    New clock created: 3.0:55.0:20.0
+Next Clock Tick: 15120.0
+    New clock created: 4.0:12.0:0.0
+Next Clock Tick: 16120.0
+    New clock created: 4.0:28.0:40.0
+Next Clock Tick: 17120.0
+    New clock created: 4.0:45.0:20.0
+Next Clock Tick: 18120.1999
+    New clock created: 5.0:2.0:0.1998999999999569
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim no args...        
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim one arg...        
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim two args...       
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim three args...     
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim six args...       
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim out of bounds...  
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim negative time slice...
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim time slice too large...
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim time slice value of zero...
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim check for collision...
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball should come to rest...
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball should go out of bounds...
+======================================  
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball set six balls subsecond time slice...
+======================================  
+You have created Ball: 0 at position: 
+200.0, 200.0
+You have created Ball: 1 at position: 
+100.0, 100.0
+You have created Ball: 2 at position: 
+150.0, 150.0
+You have created Ball: 3 at position: 
+175.0, 175.0
+You have created Ball: 4 at position: 
+20.0, 20.0
+You have created Ball: 5 at position: 
+50.0, 50.0
+
+ Time passed: 0.0:0.0:0.1
+
+ Ball: 0
+201.0, 201.0
+
+ Ball: 1
+90.0, 90.0
+
+ Ball: 2
+170.0, 170.0
+
+ Ball: 3
+164.0, 164.0
+
+ Ball: 4
+20.1, 20.1
+
+ Ball: 5
+49.5, 49.5
+
+ No Collision Found
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball set five balls 1.234 second time slice...
+======================================  
+You have created Ball: 0 at position: 
+200.0, 200.0
+You have created Ball: 1 at position: 
+100.0, 100.0
+You have created Ball: 2 at position: 
+175.0, 175.0
+You have created Ball: 3 at position: 
+20.0, 20.0
+You have created Ball: 4 at position: 
+50.0, 50.0
+
+ Time passed: 0.0:0.0:1.234
+
+ Ball: 0
+212.3166, 212.3166
+
+ Ball: 1
+-23.165999999999997, -23.165999999999997
+
+ Ball: 2
+39.517399999999995, 39.517399999999995
+
+ Ball: 3
+21.23166, 21.23166
+
+ Ball: 4
+43.8417, 43.8417
+
+ No Collision Found
+.                                       
+.                                       
+======================================  
+... Testing SoccerSim valid ball set ten balls 10 second time slice...
+======================================  
+You have created Ball: 0 at position: 
+150.0, 150.0
+You have created Ball: 1 at position: 
+100.0, 100.0
+You have created Ball: 2 at position: 
+200.0, 200.0
+You have created Ball: 3 at position: 
+250.0, 250.0
+You have created Ball: 4 at position: 
+20.0, 20.0
+You have created Ball: 5 at position: 
+50.0, 50.0
+You have created Ball: 6 at position: 
+-100.0, -100.0
+You have created Ball: 7 at position: 
+-200.0, -200.0
+You have created Ball: 8 at position: 
+-110.0, -110.0
+You have created Ball: 9 at position: 
+1.0, 1.0
+
+ Time passed: 0.0:0.0:10.0
+
+ Ball: 0
+245.61792499119548, 245.61792499119548
+
+ Ball: 1
+-856.179249911955, -856.179249911955
+
+ Ball: 2
+2112.3584998239103, 2112.3584998239103
+
+ Ball: 3
+-801.7971749031506, -801.7971749031506
+
+ Ball: 4
+29.561792499119544, 29.561792499119544
+
+ Ball: 5
+2.1910375044022476, 2.1910375044022476
+
+ Ball: 6
+1812.35849982391, 1812.35849982391
+
+ Ball: 7
+2668.537749735865, 2668.537749735865
+
+ Ball: 8
+81.235849982391, 81.235849982391
+
+ Ball: 9
+479.0896249559775, 479.0896249559775
+
+ No Collision Found
+.                                       
+.                                       
+======================================  
+... End of SoccerSim Testing...         
+======================================  
